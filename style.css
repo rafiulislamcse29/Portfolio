@@ -1,0 +1,51 @@
+
+/* universal selector */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  /* list-style-type: none; */
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+ font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+}
+
+.custom-container{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none !important;
+  color: #ffff !important;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+.nav-logo{
+  font-size: 2rem !important;
+} 
+
+.nav-link{
+  font-weight: bold !important;
+  font-size: 1.1rem !important;
+}
+.nav-link:last-child{
+  margin-right: 2rem;
+}
+
+
+/* hero */
+/* project */
+/* .project-box{
+  max-height: 350px;
+} */
